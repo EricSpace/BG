@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>UserLogin</servlet-name>
+    <servlet-class>com.sunsharelaw.bg.controller.UserLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SetupCompanyInfo</servlet-name>
+    <servlet-class>com.sunsharelaw.bg.controller.SetupCompanyInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GoHomePage</servlet-name>
+    <servlet-class>com.sunsharelaw.bg.controller.GoHomePage</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SetupMenuInfo</servlet-name>
+    <servlet-class>com.sunsharelaw.bg.controller.SetupMenuInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SetupReponseMsgInfo</servlet-name>
+    <servlet-class>com.sunsharelaw.bg.controller.SetupReponseMsgInfo</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>UserLogin</servlet-name>
+    <url-pattern>/UserLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SetupCompanyInfo</servlet-name>
+    <url-pattern>/SetupCompanyInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoHomePage</servlet-name>
+    <url-pattern>/GoHomePage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SetupMenuInfo</servlet-name>
+    <url-pattern>/SetupMenuInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SetupReponseMsgInfo</servlet-name>
+    <url-pattern>/SetupReponseMsgInfo</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

@@ -1,0 +1,40 @@
+.menupopupone {
+	width: 300;
+	height: 300;
+	visibility: hidden;
+	margin: 0 auto;
+	overflow: hidden;
+	z-index: 999;
+	border: 3px solid #CCC;
+	background-color: #F9F9F9;
+	border: 1px solid #333;
+	padding: 5px;
+}
+
+.black_overlay {
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index: 1001;
+	-moz-opacity: 0.8;
+	opacity: .80;
+	filter: alpha(opacity = 88);
+}
+
+.white_content {
+	display: none;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	width: 50%;
+	height: 40%;
+	padding: 20px;
+	border: 10px solid gray;
+	background-color: white;
+	z-index: 1002;
+	overflow: auto;
+}
